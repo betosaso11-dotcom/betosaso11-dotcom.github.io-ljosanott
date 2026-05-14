@@ -1,5 +1,5 @@
 :root {
-  --main: #38bdf8:ç;
+  --main: #38bdf8;
   --dark: #111827;
   --yellow: #facc15;
   --light: #f8fafc;
@@ -20,7 +20,6 @@ body {
   color: var(--text);
 }
 
-/* Tvískipt litasamsetning - Light og Dark */
 @media (prefers-color-scheme: dark) {
   :root {
     --light: #020617;
@@ -38,7 +37,6 @@ body {
   }
 }
 
-/* Header */
 .hero {
   min-height: 90vh;
   background: linear-gradient(135deg, #111827, #0f172a, #075985);
@@ -97,7 +95,6 @@ body {
   display: none;
 }
 
-/* Hero section */
 .hero-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -125,7 +122,6 @@ body {
   font-weight: bold;
 }
 
-/* Kvikun á takka */
 .pulse {
   animation: pulseButton 1.8s infinite;
 }
@@ -146,8 +142,6 @@ body {
     box-shadow: 0 0 0 0 rgba(56, 189, 248, 0);
   }
 }
-
-/* Myndasýning */
 .slideshow {
   position: relative;
   height: 360px;
@@ -201,7 +195,6 @@ body {
   }
 }
 
-/* Sections */
 .section-card {
   background: var(--card);
   padding: 2rem;
@@ -236,7 +229,6 @@ body {
   color: var(--dark);
 }
 
-/* Tafla - sýnileg í öllum skjástærðum */
 .table-scroll {
   width: 100%;
   overflow-x: auto;
@@ -265,13 +257,11 @@ button {
   width: 100%;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 2rem 0;
 }
 
-/* Responsive hönnun */
 @media (max-width: 768px) {
   .hero-content {
     grid-template-columns: 1fr;
