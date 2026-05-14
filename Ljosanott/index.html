@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="is" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ljósanótt í Reykjanesbæ</title>
+
+  <link rel="stylesheet" href="css/pico.violet.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="hero">
+    <nav class="container nav-bar">
+      <a href="#" class="logo-box">
+        <svg class="logo" width="70" height="70" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="45" fill="#111827"/>
+          <path d="M50 12 L58 38 L85 38 L63 54 L72 82 L50 65 L28 82 L37 54 L15 38 L42 38 Z" fill="#facc15"/>
+          <circle cx="50" cy="50" r="13" fill="#38bdf8"/>
+        </svg>
+        <strong>Ljósanótt</strong>
+      </a>
+
+      <ul class="desktop-menu">
+        <li><a href="#upplysingar">Upplýsingar</a></li>
+        <li><a href="#dagskra">Dagskrá</a></li>
+        <li><a href="#skraning">Skráning</a></li>
+        <li><a href="#fyrirtaeki">Fyrirtækið</a></li>
+      </ul>
+
+      <details class="mobile-menu" role="list">
+        <summary>Valmynd</summary>
+        <ul role="listbox">
+          <li><a href="#upplysingar">Upplýsingar</a></li>
+          <li><a href="#dagskra">Dagskrá</a></li>
+          <li><a href="#skraning">Skráning</a></li>
+          <li><a href="#fyrirtaeki">Fyrirtækið</a></li>
+        </ul>
+      </details>
+    </nav>
+
+    <section class="container hero-content">
+      <div>
+        <p class="tag">Menningar- og fjölskylduhátíð Reykjanesbæjar</p>
+        <h1>Ljósanótt í Reykjanesbæ</h1>
+        <p>
+          Ljósanótt er stór menningar- og fjölskylduhátíð í Reykjanesbæ.
+          Á hátíðinni koma íbúar og gestir saman til að njóta tónlistar,
+          matar, listar, ljósa og skemmtunar fyrir alla fjölskylduna.
+        </p>
+        <a href="#skraning" role="button" class="pulse">Skrá mig á viðburð</a>
+      </div>
+
+      <div class="slideshow" aria-label="Myndasýning">
+        <img src="img/event1.jpg" alt="Ljós og fólk á hátíð">
+        <img src="img/event2.jpg" alt="Tónleikar á útisviði">
+        <img src="img/event3.jpg" alt="Flugeldasýning á Ljósanótt">
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+
+    <section id="upplysingar" class="grid section-card">
+      <article>
+        <h2>Upplýsingar um viðburð</h2>
+        <p>
+          Ljósanótt er menningar- og fjölskylduhátíð sem haldin er í Reykjanesbæ.
+          Hátíðin býður upp á fjölbreytta dagskrá fyrir alla aldurshópa,
+          meðal annars tónleika, listasýningar, markað, matarvagna og
+          barnadagskrá.
+        </p>
+        <p>
+          Á Ljósanótt er mikil stemning í bænum. Gestir geta gengið um svæðið,
+          skoðað viðburði, hlustað á tónlist og notið ljósa og skemmtunar.
+          Hátíðin endar með glæsilegri dagskrá og flugeldasýningu.
+        </p>
+      </article>
+
+      <article class="info-box">
+        <h3>Tímasetning</h3>
+        <p><strong>Dagsetning:</strong> Fyrsta helgin í september</p>
+        <p><strong>Tími:</strong> Fimmtudagur - sunnudagur</p>
+        <p><strong>Staður:</strong> Reykjanesbær, Ísland</p>
+      </article>
+    </section>
+
+    <section id="dagskra" class="section-card">
+      <h2>Dagskrá</h2>
+
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Tími</th>
+              <th>Dagskrárliður</th>
+              <th>Lýsing</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>14:00</td>
+              <td>Barnadagskrá</td>
+              <td>Leikir, hoppukastalar og skemmtun fyrir börn og fjölskyldur.</td>
+            </tr>
+
+            <tr>
+              <td>16:00</td>
+              <td>Matarvagnar og markaður</td>
+              <td>Gestir geta keypt mat, drykki og skoðað vörur frá söluaðilum.</td>
+            </tr>
+
+            <tr>
+              <td>18:00</td>
+              <td>Tónlistaratriði</td>
+              <td>Listamenn koma fram á sviði og skapa góða stemningu.</td>
+            </tr>
+
+            <tr>
+              <td>20:00</td>
+              <td>Stórtónleikar</td>
+              <td>Aðaltónleikar kvöldsins á útisviði fyrir alla gesti.</td>
+            </tr>
+
+            <tr>
+              <td>22:00</td>
+              <td>Flugeldasýning</td>
+              <td>Glæsileg flugeldasýning og ljós yfir Reykjanesbæ.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="skraning" class="section-card">
+      <h2>Skráning á viðburðinn</h2>
+      <p>
+        Hér geta gestir skráð sig á viðburðinn. Formið er aðeins útlit og
+        hefur enga virkni.
+      </p>
+
+      <form>
+        <div class="grid">
+          <label>
+            Nafn
+            <input type="text" name="nafn" placeholder="Sláðu inn nafn" required>
+          </label>
+
+          <label>
+            Netfang
+            <input type="email" name="email" placeholder="nafn@example.com" required>
+          </label>
+        </div>
+
+        <div class="grid">
+          <label>
+            Símanúmer
+            <input type="tel" name="simi" placeholder="777 7777" pattern="[0-9 ]{7,12}" required>
+          </label>
+
+          <label>
+            Aldur
+            <input type="number" name="aldur" min="1" max="100" required>
+          </label>
+        </div>
+
+        <label>
+          Veldu áhugasvið
+          <select name="ahugasvid" required>
+            <option value="">Veldu eitt</option>
+            <option>Tónleikar</option>
+            <option>Barnadagskrá</option>
+            <option>Matarvagnar</option>
+            <option>Listasýningar</option>
+            <option>Flugeldasýning</option>
+          </select>
+        </label>
+
+        <fieldset>
+          <legend>Ætlar þú að mæta með fjölskyldu?</legend>
+
+          <label>
+            <input type="radio" name="fjolskylda" required>
+            Já
+          </label>
+
+          <label>
+            <input type="radio" name="fjolskylda">
+            Nei
+          </label>
+        </fieldset>
+
+        <label>
+          Athugasemdir
+          <textarea name="athugasemdir" placeholder="Skrifaðu hér ef þú vilt láta okkur vita eitthvað"></textarea>
+        </label>
+
+        <label>
+          <input type="checkbox" required>
+          Ég samþykki skilmála skráningar
+        </label>
+
+        <button type="submit">Senda skráningu</button>
+      </form>
+    </section>
+
+    <section id="fyrirtaeki" class="grid section-card">
+      <article>
+        <h2>Um fyrirtækið</h2>
+        <p>
+          Reykjanesbær hefur umsjón með Ljósanótt. Markmið hátíðarinnar er að
+          sameina íbúa og gesti með menningu, tónlist, list, ljósi og
+          fjölbreyttri skemmtun.
+        </p>
+        <p>
+          Hátíðin er mikilvægur hluti af menningarlífi bæjarins og gefur fólki
+          tækifæri til að koma saman, njóta dagskrárinnar og upplifa góða
+          stemningu í Reykjanesbæ.
+        </p>
+      </article>
+
+      <article class="company-card">
+        <h3>Reykjanesbær</h3>
+        <p><strong>Netfang:</strong> ljosanott@reykjanesbaer.is</p>
+        <p><strong>Sími:</strong> 421 6700</p>
+        <p><strong>Staðsetning:</strong> Reykjanesbær</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <p>© 2023 Ljósanótt í Reykjanesbæ - Samuel Alejandro 👑</p>
+  </footer>
+
+</body>
+</html>
